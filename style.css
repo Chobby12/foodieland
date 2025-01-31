@@ -283,10 +283,13 @@ header .container{
     .desp{
         margin-top: -200px;
         background-color: #E7F9FD;
-        z-index: 2;
+        z-index: 1;
     }
     .msg h1{
         font-size: 2.8rem;
+    }
+    .hot-recipes{
+        margin-bottom: 0;
     }
 }
 @media (min-width: 768px) and (max-width: 1115px) {
