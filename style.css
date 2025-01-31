@@ -354,7 +354,7 @@ header .container{
     background-position: bottom;
 }
 .items span{
-    color: #fff;
+    color: #000;
 }
 .items:nth-child(2){
     background-image: url(pictures/Rectangle\ 8.png);
