@@ -278,15 +278,16 @@ header .container{
     }
     
 }
+/* Little comment */
 @media (max-width: 768px){
     .desp{
         margin-top: -200px;
         background-color: #E7F9FD;
         z-index: 2;
     }
-    /* .msg h1{
+    .msg h1{
         font-size: 2.8rem;
-    } */
+    }
 }
 @media (min-width: 768px) and (max-width: 1115px) {
     .imago{
