@@ -873,6 +873,7 @@ header .container{
     text-decoration-skip-ink: none;
 }
 .insta-body{
+    margin: 45px auto;
     width: 100%;
     /* background: rebeccapurple; */
     display: flex;
@@ -909,6 +910,194 @@ header .container{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+.posts{
+    background-color: #fff;
+    width: 290px;
+    height: 445.44px;
+    display: flex;
+    flex-direction: column;
+
+}
+.posts button{
+    background: none;
+    border: none;
+    padding: 0;
+}
+.sec1{
+    padding: 10px;
+    width: 290px;
+    height: 41.76px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.in-write{
+    
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    /* line-height: -5px; */
+}
+.inwricon{
+    display: grid;
+    gap: 0;
+}
+.inwricon b{
+    font-family: SF Pro Text;
+    font-size: 10.05px;
+    font-weight: 600;
+    line-height: 13.92px;
+    letter-spacing: -0.07733333110809326px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.inwricon span{
+    font-family: SF Pro Text;
+    font-size: 8.51px;
+    font-weight: 400;
+    line-height: 10.15px;
+    letter-spacing: 0.0541333332657814px;
+    margin-top: -0.5px;
+    color: #262626;
+}
+/*  */
+
+.sec2{
+    width: 290px;
+    height: 290px;
+    background: url('pictures/i1.png');
+    position: relative;
+}
+.count{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #121212B2;
+    border-radius: 10.05px;
+    width: 26.29px;
+    height: 20.11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9f9f9;
+
+}
+.count span{
+    font-family: SF Pro Text;
+    font-size: 9.28px;
+    font-weight: 400;
+    line-height: 11.07px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.sec3{
+    /* background: rebeccapurple; */
+    /* font-size: 1px; */
+    width: 290px;
+    height: 113.68px;
+    padding: 10px;
+}
+.like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.posts:nth-child(2) .sec2{
+    background: url('pictures/i2.png');
+}
+.posts:nth-child(3) .sec2{
+    background: url('pictures/i3.png');
+}
+.posts:nth-child(4) .sec2{
+    background: url('pictures/i4.png');
+}
+.s1{
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.s2{
+    /* background: red; */
+    width: 76px;
+    display: flex;
+    justify-content: center;
+}
+.s3{
+    /* background: red; */
+    width: 76px;
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+}
+.comm{
+    margin-top: 5px;
+    /* background: red; */
+}
+.showl{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+.showl span{
+    font-family: SF Pro Text;
+    font-size: 10.05px;
+    font-weight: 400;
+    line-height: 13.92px;
+    letter-spacing: -0.08px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.showl b{
+    font-weight: 600;
+}
+/* .showA{
+    margin-top: 5px;
+} */
+.showA{
+    /* background: red; */
+    margin-top: 5px;
+    font-family: SF Pro Text;
+    font-size: 10.05px;
+    font-weight: 600;
+    width: 100%;
+    /* line-height: 0.92px; */
+    /* letter-spacing: -0.85px; */
+    text-align: justify;
+}
+.inwricon span, .showl span{
+    color: #262626;
+}
+.showl b{
+    color: #000;
+}
+.showA span{
+    padding: 0 0 0 0px;
+    /* font-size: 10.05px; */
+    /* margin-left: 20px; */
+    font-weight: 400;
+    /* letter-spacing: -0.77; */
+    color:#262626;
+}
+.date{
+    margin-top: 12.5px;
+    font-family: SF Pro Text;
+    font-size: 8.51px;
+    font-weight: 400;
+    line-height: 10.15px;
+    letter-spacing: 0.039px;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
 @media (max-width: 1375px) {
     .insta-difference{
         height: 100%;
@@ -921,4 +1110,12 @@ header .container{
     .insta-body{
         justify-content: center;
     }
+}
+@font-face {
+    font-family: SF Pro Text;
+    src: url(fonts/SF-Pro-Text-Regular.otf);
+}
+@font-face {
+    font-family: SF Pro Text Bold;
+    src: url(fonts/SF-Pro-Text-Bold.otf);
 }
