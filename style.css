@@ -291,6 +291,9 @@ header .container{
 }
 /* Little comment */
 @media (max-width: 768px){
+    .time-chicken{
+        margin-top: 20px;
+    }
     .imago{
         height: 320px;
         background-size: cover;
