@@ -270,6 +270,9 @@ header .container{
         flex-direction: column-reverse;
         border-radius: 30px;
     }
+    .desp{
+        border-radius: 30px;
+    }
     .nav-menu{
         z-index: 1;
     }
