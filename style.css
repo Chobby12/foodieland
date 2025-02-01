@@ -162,10 +162,14 @@ header .container{
     margin-bottom: 20px;
 }
 .msg h1{
-    font-weight: 600;
+    font-family: Inter;
     font-size: 64px;
+    font-weight: 600;
     line-height: 77.45px;
-    letter-spacing: -4%;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 .imago{
     position: relative;
@@ -280,8 +284,20 @@ header .container{
 }
 /* Little comment */
 @media (max-width: 768px){
+    .imago{
+        height: 320px;
+        background-size: cover;
+    }
+    .desp h1{
+        margin-top: 10px;
+        line-height: 65.45px;
+    }
+    .thumb-up img{
+        height: 115px;
+        width: 115px;
+    }
     .desp{
-        margin-top: -200px;
+        padding-top: 15px;
         background-color: #E7F9FD;
         z-index: 1;
     }
