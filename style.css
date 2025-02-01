@@ -268,7 +268,7 @@ header .container{
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
-        border-radius: 0 0 30px 30px;
+        border-radius: 30px;
     }
     .nav-menu{
         z-index: 1;
@@ -292,6 +292,9 @@ header .container{
 }
 /* Little comment */
 @media (max-width: 768px){
+    .desp{
+        padding: 15px;
+    }
     .time-chicken{
         margin-top: 20px;
     }
